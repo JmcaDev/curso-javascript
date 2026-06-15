@@ -8,3 +8,21 @@ const carrito = [
     { nombre: 'Teclado', precio: 400 },
     { nombre: 'Celular', precio: 700 },
 ]
+
+// Comprobar si un valor existe en un arreglo
+meses.forEach((mes) => {
+    if(mes === "Enero"){
+        console.log("Enero si existe")
+    }
+})
+
+const resultado = meses.includes("Enero")
+console.log(resultado)
+
+// En un arreglo de objetos se utiliza .some
+const existe = carrito.some(producto => producto.nombre.toLowerCase() === "celular")
+console.log(existe)
+
+// En un arreglo tradicional
+const existe2 = meses.some(mes => mes.toLowerCase() === "febrero")
+console.log(existe2)
