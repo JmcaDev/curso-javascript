@@ -1,11 +1,19 @@
 {
   "clientes": [
     {
-      "nombre": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
+      "nombre": "jose actualizado",
+      "email": "jose@jose.com",
+      "telefono": "02020202",
+      "empresa": "jose",
+      "id": "7-8x8azbtSY"
+    },
+    {
+      "nombre": "alejandra",
+      "email": "alejandra@alejandra.com",
+      "telefono": "02020202",
+      "empresa": "alejandra",
+      "id": "HWw_vaSWhQA"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
